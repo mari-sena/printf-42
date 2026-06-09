@@ -2,7 +2,7 @@
 #define FT_PRINTF_H
 
 #include <stdarg.h>
-#include <stdio.h>
+#include <unistd.h>
 
 int	ft_printf(const char *, ...);
 int	ft_putchar(char c);

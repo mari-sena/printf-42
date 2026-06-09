@@ -21,6 +21,7 @@ int	ft_putlong(unsigned long nbr, char *base)
 
 	counter = 0;
 	base_len = 0;
+	i = 0;
 	while (base[base_len])
 		base_len++;
 	if (nbr == 0)
