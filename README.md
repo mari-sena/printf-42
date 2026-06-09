@@ -1,6 +1,7 @@
 _This project has been created as part of the 42 curriculum by mariafer._
 
 ## Description
+The goal of this project is to recreate part of the behavior of _printf_ from standard C library. The project focuses on variadic functions, formatted output, type conversion, base conversion, pointer printing, and careful return value management. The implemented function receives a format string and a variable number of arguments, then prints the formatted output to the standard output and returns the number of characters printed.
 
 | Specifier | Description |
 |----------|-------------|
