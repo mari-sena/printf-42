@@ -12,7 +12,14 @@
 
 #include "../ft_printf.h"
 
-int	ft_putptr()
+int	ft_putptr(void *ptr)
 {
-	
+	int	counter;
+
+	counter = 0;
+	if (!ptr)
+		return (ft_putstr("(nil)"));
+	counter += ft_putstr("0x");
+	counter += ft_putlong((unsigned long)ptr, "0123456789abcdef");
+	return (counter);
 }
